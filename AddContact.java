@@ -14,7 +14,6 @@ public class AddContact {
     Scanner sc = new Scanner(System.in);
 
     void addContact() {
-        // AddContact addContact = new AddContact();
         System.out.println("Enter the First Name ");
         this.first_name = sc.next();
         System.out.println("Enter the last Name ");
