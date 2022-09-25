@@ -102,4 +102,14 @@ public class AddContact {
     public void setEmail(String email) {
         this.email = email;
     }
+    void viewContact() {
+        System.out.println("Contact Detail are..........");
+        System.out.println("Name = " + first_name + " " + last_name + " ");
+        System.out.println("Address = " + address);
+        System.out.println("City = " + city);
+        System.out.println("State  = " + state);
+        System.out.println("Zip Code = " + zip_code);
+        System.out.println("Mobile Number = " + phone_number);
+        System.out.println("Email Address = " + email);
+    }
 }

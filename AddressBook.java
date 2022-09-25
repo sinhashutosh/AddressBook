@@ -21,6 +21,7 @@ public class AddressBook {
                 AddContact add = new AddContact();
                 add.addContact();
                 list.add(add);
+                add.viewContact();
                 System.out.println("Contact added");
                 System.out.println("Enter 0 for exit ");
                 System.out.println("Enter 1 for Add Contact ");
@@ -33,6 +34,7 @@ public class AddressBook {
                 if (choice == Add_Contact) {
                     add.addContact();
                     list.add(add);
+                    add.viewContact();
                 } else if (choice == Edit_Address_book) {
                     System.out.println("Enter first name of contact to edit");
                     String fname = sc.next();
@@ -57,9 +59,9 @@ public class AddressBook {
 
                 }
             }
-            for (int j = 0; j < list.size(); j++) {
-                System.out.println("entered addresses are" + list.get(j));
-            }
+//            for (int j = 0; j < list.size(); j++) {
+//                System.out.println("entered addresses are" + list.get(j));
+//            }
         }
 
     }
