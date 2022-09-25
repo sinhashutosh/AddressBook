@@ -52,7 +52,7 @@ public class AddContact {
     }
 
     public void setLast_Name(String last_Name) {
-        this.last_name = last_Name;
+        System.out.println(last_Name);
     }
 
     public String getAddress() {
