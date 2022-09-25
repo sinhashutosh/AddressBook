@@ -3,7 +3,7 @@ package org.example;
 import java.util.Scanner;
 
 public class AddressBook {
-    void contactDetail() {
+    void addContactDetail() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the First Name ");
         String first_name = sc.next();
@@ -22,6 +22,6 @@ public class AddressBook {
         System.out.println("Enter Email Id  ");
         String email = sc.next();
         Contact add = new Contact(first_name, last_name, address, city, state, PinCode, mobileNumber, email);
-
+        add.viewContact();
     }
 }

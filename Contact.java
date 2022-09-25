@@ -21,67 +21,14 @@ public class Contact {
         this.email = email;
     }
 
-    public String getFirst_name() {
-        return first_name;
-    }
-
-    public void setFirst_name(String first_name) {
-        this.first_name = first_name;
-    }
-
-    public String getLast_name() {
-        return last_name;
-    }
-
-    public void setLast_name(String last_name) {
-        this.last_name = last_name;
-    }
-
-    public String getAddress() {
-        return address;
-    }
-
-    public void setAddress(String address) {
-        this.address = address;
-    }
-
-    public String getCity() {
-        return city;
-    }
-
-    public void setCity(String city) {
-        this.city = city;
-    }
-
-    public String getState() {
-        return state;
-    }
-
-    public void setState(String state) {
-        this.state = state;
-    }
-
-    public int getpinCode() {
-        return pinCode;
-    }
-
-    public void setPinCode(int pinCode) {
-        pinCode = pinCode;
-    }
-
-    public String getMobileNumber() {
-        return mobileNumber;
-    }
-
-    public void setMobileNumber(String mobileNumber) {
-        this.mobileNumber = mobileNumber;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
+    void viewContact() {
+        System.out.println("Contact Detail are..........");
+        System.out.println("Name = " + first_name + " " + last_name + " ");
+        System.out.println("Address = " + address);
+        System.out.println("City = " + city);
+        System.out.println("State  = " + state);
+        System.out.println("Zip Code = " + pinCode);
+        System.out.println("Mobile Number = " + mobileNumber);
+        System.out.println("Email Address = " + email);
     }
 }
