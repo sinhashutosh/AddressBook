@@ -1,4 +1,3 @@
-Ability to edit
-existing contact
-person using their
-name
+Ability to delete a
+person using
+person's name
