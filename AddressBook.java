@@ -22,6 +22,7 @@ public class AddressBook {
         System.out.println("Enter Email Id  ");
         String email = sc.next();
         Contact add = new Contact(first_name, last_name, address, city, state, PinCode, mobileNumber, email);
-        add.viewContact();
+        System.out.println(add.toString());
+
     }
 }

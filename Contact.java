@@ -20,15 +20,21 @@ public class Contact {
         this.mobileNumber = mobileNumber;
         this.email = email;
     }
-
-    void viewContact() {
-        System.out.println("Contact Detail are..........");
-        System.out.println("Name = " + first_name + " " + last_name + " ");
-        System.out.println("Address = " + address);
-        System.out.println("City = " + city);
-        System.out.println("State  = " + state);
-        System.out.println("Zip Code = " + pinCode);
-        System.out.println("Mobile Number = " + mobileNumber);
-        System.out.println("Email Address = " + email);
+      @Override
+    public String toString(){
+        return first_name + " " + last_name + " " + address + " "
+                + city + " " + state + " " + pinCode + " " + mobileNumber + " "
+                + email;
     }
+
+//    void viewContact() {
+//        System.out.println("Contact Detail are..........");
+//        System.out.println("Name = " + first_name + " " + last_name + " ");
+//        System.out.println("Address = " + address);
+//        System.out.println("City = " + city);
+//        System.out.println("State  = " + state);
+//        System.out.println("Zip Code = " + pinCode);
+//        System.out.println("Mobile Number = " + mobileNumber);
+//        System.out.println("Email Address = " + email);
+//    }
 }
